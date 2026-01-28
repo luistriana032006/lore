@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Lorena</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gradient-bg min-h-screen flex flex-col items-center py-10 px-4">
+
+    <!-- Decoración de Girasoles en los lados (Escritorio) -->
+    <div class="hidden lg:block fixed left-5 top-1/2 -translate-y-1/2 text-6xl floating" style="animation-delay: 0s;">🌻</div>
+    <div class="hidden lg:block fixed right-5 top-1/2 -translate-y-1/2 text-6xl floating" style="animation-delay: 1s;">🌻</div>
+
+    <!-- Contenedor Principal -->
+    <div class="max-w-4xl w-full text-center space-y-12">
+        
+        <!-- Letrero Principal -->
+        <div class="banner-roses rounded-3xl p-8 md:p-16 mx-auto inline-block relative overflow-visible">
+            <!-- Rosas en las esquinas -->
+            <span class="rose-corner top-left">🌹</span>
+            <span class="rose-corner top-right">🌹</span>
+            <span class="rose-corner bottom-left">🌹</span>
+            <span class="rose-corner bottom-right">🌹</span>
+
+            <h1 class="text-4xl md:text-7xl text-blue-700 cursive mb-4">
+                Te quiero mucho Lorena
+            </h1>
+            <p class="text-blue-400 font-medium tracking-widest uppercase text-sm md:text-base">
+                Eres lo más especial en mi mundo
+            </p>
+        </div>
+
+        <!-- Sección de Peluches y Girasoles -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center mt-10">
+            
+            <!-- Peluche 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-blue-200 transform hover:scale-105 transition">
+                <div class="text-7xl mb-4">🧸</div>
+                <h3 class="text-blue-800 font-bold">Un abrazo tierno</h3>
+            </div>
+
+            <!-- Girasol Central -->
+            <div class="flex flex-col items-center">
+                <div class="text-8xl floating">🌻</div>
+                <p class="text-blue-600 italic mt-2">Siempre brillas como el sol</p>
+            </div>
+
+            <!-- Peluche 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-blue-200 transform hover:scale-105 transition">
+                <div class="text-7xl mb-4">🐻</div>
+                <h3 class="text-blue-800 font-bold">Para acompañarte</h3>
+            </div>
+        </div>
+
+        <!-- Mensaje Inferior -->
+        <div class="bg-blue-600 text-white p-8 rounded-full shadow-xl inline-block px-12 transform -rotate-2 hover:rotate-0 transition duration-500">
+            <p class="text-xl md:text-2xl font-light">
+                Gracias por ser parte de mi vida 💙
+            </p>
+        </div>
+
+        <!-- Galería de Detalles -->
+        <div class="flex justify-center gap-10 mt-10">
+            <span class="text-4xl opacity-80">🌹</span>
+            <span class="text-4xl opacity-80">🌻</span>
+            <span class="text-4xl opacity-80">🧸</span>
+            <span class="text-4xl opacity-80">🌻</span>
+            <span class="text-4xl opacity-80">🌹</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-20 text-blue-300 text-sm">
+        Hecho con cariño para Lorena
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
